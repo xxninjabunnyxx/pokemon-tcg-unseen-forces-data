@@ -1,0 +1,96 @@
+---
+id: ex10-9
+name: Meganium
+supertype: Pokémon
+subtypes:
+- Stage 2
+hp: '100'
+types:
+- Grass
+evolvesFrom: Bayleef
+abilities:
+- name: Healing Aroma
+  text: As long as Meganium is your Active Pokémon, remove 1 damage counter from each
+    Pokémon (excluding Pokémon-ex) (both yours and your opponent's) between turns.
+  type: Poké-Body
+attacks:
+- name: Bouncy Move
+  cost:
+  - Grass
+  - Grass
+  - Colorless
+  convertedEnergyCost: 3
+  damage: 50+
+  text: You may put up to 5 damage counters on Meganium. If you do, this attack does
+    50 damage plus 10 more damage for each damage counter you put on Meganium in this
+    way.
+weaknesses:
+- type: Fire
+  value: "×2"
+resistances:
+- type: Water
+  value: "-30"
+retreatCost:
+- Colorless
+- Colorless
+- Colorless
+convertedRetreatCost: 3
+set:
+  id: ex10
+  name: Unseen Forces
+  series: EX
+  printedTotal: 115
+  total: 145
+  legalities:
+    unlimited: Legal
+  ptcgoCode: UF
+  releaseDate: 2005/08/01
+  updatedAt: 2020/08/14 09:35:00
+  images:
+    symbol: https://images.pokemontcg.io/ex10/symbol.png
+    logo: https://images.pokemontcg.io/ex10/logo.png
+number: '9'
+artist: Atsuko Nishida
+rarity: Rare Holo
+nationalPokedexNumbers:
+- 154
+legalities:
+  unlimited: Legal
+images:
+  small: https://images.pokemontcg.io/ex10/9.png
+  large: https://images.pokemontcg.io/ex10/9_hires.png
+tcgplayer:
+  url: https://prices.pokemontcg.io/tcgplayer/ex10-9
+  updatedAt: 2023/09/10
+  prices:
+    holofoil:
+      low: 9.34
+      mid: 21.89
+      high: 35.0
+      market: 21.89
+      directLow: 
+    reverseHolofoil:
+      low: 12.0
+      mid: 13.98
+      high: 39.99
+      market: 24.02
+      directLow: 
+cardmarket:
+  url: https://prices.pokemontcg.io/cardmarket/ex10-9
+  updatedAt: 2023/09/10
+  prices:
+    averageSellPrice: 1.97
+    lowPrice: 0.08
+    trendPrice: 1.85
+    germanProLow: 0.0
+    suggestedPrice: 0.0
+    reverseHoloSell: 0.0
+    reverseHoloLow: 0.59
+    reverseHoloTrend: 11.46
+    lowPriceExPlus: 0.49
+    avg1: 0.15
+    avg7: 2.78
+    avg30: 1.86
+    reverseHoloAvg1: 29.99
+    reverseHoloAvg7: 13.31
+    reverseHoloAvg30: 6.75
